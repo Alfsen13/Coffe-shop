@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # UpgradeHub
 Device marketplace website with additional features for device service
 =======
@@ -63,4 +62,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
->>>>>>> 4c3e982 (UpgradeHub)
