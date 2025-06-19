@@ -37,6 +37,8 @@ Route::middleware(['auth', 'role:admin'])->prefix('admin')->group(function () {
     Route::get('/produk-terverifikasi/cetak', [AdminController::class, 'cetakProdukTerverifikasi'])->name('admin.produk.terverifikasi.cetak');
     Route::get('/monitoring/cetak', [AdminController::class, 'cetakMonitoring'])->name('admin.monitoring.cetak');
 
+    Route::post('/users/store', [AdminController::class, 'store'])->name('admin.users.store');
+    Route::delete('/users/{id}/delete', [AdminController::class, 'destroy'])->name('admin.users.destroy');
 
 });
 

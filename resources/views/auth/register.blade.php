@@ -29,7 +29,6 @@
             <label>Role</label>
             <select name="role" class="form-select" required>
                 <option value="pelanggan">Pelanggan</option>
-                <option value="teknisi">Teknisi</option>
                 <option value="toko">Toko</option>
             </select>
         </div>
